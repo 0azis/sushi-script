@@ -1,1 +1,1 @@
-# sushi-react
+# Sushi Script
