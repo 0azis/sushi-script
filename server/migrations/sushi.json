@@ -1,0 +1,437 @@
+[
+  {
+    "id": "1",
+    "image": "https://static.sushiwok.ru/img/41d73a69d00513d1822e93bc03ef7700/500x500",
+    "title": "Суши с лососем",
+    "price": "230",
+    "weight": "64",
+    "description": "Лосось, рис",
+    "category": "1",
+    "nutrition": {
+      "protein": "3",
+      "carbohydrat": "7",
+      "fat": "1",
+      "calories": "46"
+    }
+  },
+  {
+    "id": "2",
+    "image": "https://static.sushiwok.ru/img/98b7eb21a438cd73bfc85499c79a091b/500x500",
+    "title": "Суши с креветкой",
+    "price": "230",
+    "weight": "64",
+    "description": "Креветка, рис",
+    "category": "1",
+    "nutrition": {
+      "protein": "2",
+      "carbohydrat": "7",
+      "fat": "0",
+      "calories": "37"
+    }
+  },
+  {
+    "id": "3",
+    "image": "https://static.sushiwok.ru/img/ac484412856c3751df19489753f1d0e7/500x500",
+    "title": "Суши с угрем",
+    "price": "230",
+    "weight": "66",
+    "description": "Угорь, рис, нори, унаги соус, кунжут",
+    "category": "1",
+    "nutrition": {
+      "protein": "3",
+      "carbohydrat": "7",
+      "fat": "3",
+      "calories": "62"
+    }
+  },
+  {
+    "id": "4",
+    "image": "https://static.sushiwok.ru/img/b78220cdcd342fb1e65346cc1a7f51c3/500x500",
+    "title": "Сочная креветка",
+    "price": "440",
+    "weight": "232",
+    "description": "Унаги соус, креветка тигровая, краб-крем, огурец, сыр сливочный, масаго",
+    "category": "2",
+    "nutrition": {
+      "protein": "5",
+      "carbohydrat": "34",
+      "fat": "6",
+      "calories": "208"
+    }
+  },
+  {
+    "id": "5",
+    "image": "https://static.sushiwok.ru/img/593a42771c40be194589e39f96b812cd/500x500",
+    "title": "Сэнсей",
+    "price": "320",
+    "weight": "248",
+    "description": "Цыпленок, омлет тамаго, сыр сливочный, шеф-соус, кунжут",
+    "category": "2",
+    "nutrition": {
+      "protein": "18",
+      "carbohydrat": "68",
+      "fat": "13",
+      "calories": "459"
+    }
+  },
+  {
+    "id": "6",
+    "image": "https://static.sushiwok.ru/img/6d0b34af66b50b28f201fae84274748d/500x500",
+    "title": "Азиатский краб",
+    "price": "300",
+    "weight": "234",
+    "description": "Краб-крем, омлет тамаго, сыр сливочный, салат айсберг, шеф-соус, азиатский соус, паприка, кунжут",
+    "category": "2",
+    "nutrition": {
+      "protein": "19",
+      "carbohydrat": "49",
+      "fat": "17",
+      "calories": "442"
+    }
+  },
+  {
+    "id": "7",
+    "image": "https://static.sushiwok.ru/img/d8f116c4ad734759f875095afcfa30c6/500x500",
+    "title": "Филадельфия",
+    "price": "520",
+    "weight": "217",
+    "description": "Лосось, огурец, сыр сливочный",
+    "category": "2",
+    "nutrition": {
+      "protein": "26",
+      "carbohydrat": "50",
+      "fat": "22",
+      "calories": "509"
+    }
+  },
+  {
+    "id": "8",
+    "image": "https://kcdn.tanuki.ru/images/1/0K5Lyi6WB-ykTnx-kJBMxBhOgSBs-UMd.jpg?width=400&height=400",
+    "title": "Прайм",
+    "price": "675",
+    "weight": "235",
+    "description": "Лосось, креветка темпура, огурец, тобико, рис, нори",
+    "category": "2",
+    "nutrition": {
+      "protein": "20",
+      "carbohydrat": "30",
+      "fat": "19",
+      "calories": "364"
+    }
+  },
+  {
+    "id": "9",
+    "image": "https://static.sushiwok.ru/img/2439a07bfa9fbc5ae4e06ef8199d5c17/500x500",
+    "title": "Эби Лосось",
+    "price": "500",
+    "weight": "222",
+    "description": "Лосось, креветка тигровая, сыр сливочный, омлет тамаго, авокадо, масаго, спайси соус",
+    "category": "2",
+    "nutrition": {
+      "protein": "13",
+      "carbohydrat": "40",
+      "fat": "26",
+      "calories": "441"
+    }
+  },
+  {
+    "id": "10",
+    "image": "https://static.sushiwok.ru/img/2cd3fa63b0a4d4a039d6582627fb69f8/500x500",
+    "title": "Калифорния в кунжуте",
+    "price": "340",
+    "weight": "196",
+    "description": "Краб-крем, огурец, авокадо, кунжут",
+    "category": "2",
+    "nutrition": {
+      "protein": "11",
+      "carbohydrat": "47",
+      "fat": "31",
+      "calories": "506"
+    }
+  },
+  {
+    "id": "11",
+    "image": "https://static.sushiwok.ru/img/608285503e3d7a143947df8e2b9df16d/500x500",
+    "title": "Калифорния",
+    "price": "380",
+    "weight": "192",
+    "description": "Краб-крем, авокадо, огурец, масаго",
+    "category": "2",
+    "nutrition": {
+      "protein": "11",
+      "carbohydrat": "47",
+      "fat": "31",
+      "calories": "506"
+    }
+  },
+  {
+    "id": "12",
+    "image": "https://static.sushiwok.ru/img/7e57ce91b8edb8b460c232eba0088941/500x500",
+    "title": "Хит Азии",
+    "price": "1000",
+    "weight": "688",
+    "description": "Спайси-креветка, Лосось-пиканто, Калифорния, Ролл с огурцом",
+    "category": "3",
+    "nutrition": {
+      "protein": "63",
+      "carbohydrat": "201",
+      "fat": "98",
+      "calories": "1983"
+    }
+  },
+  {
+    "id": "13",
+    "image": "https://static.sushiwok.ru/img/47260254d91d829dadb72c3dabeaec69/500x500",
+    "title": "Жара",
+    "price": "1240",
+    "weight": "908",
+    "description": "Аяши, Сырный, Лосось-унаги, Терияки-фиш",
+    "category": "3",
+    "nutrition": {
+      "protein": "48",
+      "carbohydrat": "213",
+      "fat": "61",
+      "calories": "1542"
+    }
+  },
+  {
+    "id": "14",
+    "image": "https://static.sushiwok.ru/img/cb19c1ddf2172a50a8be8bc9d1dacacd/500x500",
+    "title": "Филомания",
+    "price": "1080",
+    "weight": "695",
+    "description": "Филадельфия в масаго, Филадельфия, Калифорния, Ролл с огурцом",
+    "category": "3",
+    "nutrition": {
+      "protein": "56",
+      "carbohydrat": "188",
+      "fat": "62",
+      "calories": "1538"
+    }
+  },
+  {
+    "id": "15",
+    "image": "https://static.sushiwok.ru/img/a69dbfbf7e5640d1ea2333d7ab1304d5/500x500",
+    "title": "Темпура",
+    "price": "900",
+    "weight": "682",
+    "description": "Темпура-лосось, Темпура-креветка, Темпура-краб",
+    "category": "3",
+    "nutrition": {
+      "protein": "54",
+      "carbohydrat": "222",
+      "fat": "77",
+      "calories": "1799"
+    }
+  },
+  {
+    "id": "16",
+    "image": "https://kcdn.tanuki.ru/images/1/NyEQNYLaKRyg4dK0csBbTUUWyHpztlaf.jpg?width=500&height=500",
+    "title": "Сашими Креветка",
+    "price": "480",
+    "weight": "49",
+    "description": "",
+    "category": "4",
+    "nutrition": {
+      "protein": "6",
+      "carbohydrat": "1",
+      "fat": "0",
+      "calories": "30"
+    }
+  },
+  {
+    "id": "17",
+    "image": "https://kcdn.tanuki.ru/images/1/_ExoWPebsaFxeJbOSMPmNYuPmq4CLLCN.jpg?width=500&height=500",
+    "title": "Сашими Угорь",
+    "price": "560",
+    "weight": "67",
+    "description": "",
+    "category": "4",
+    "nutrition": {
+      "protein": "12",
+      "carbohydrat": "1",
+      "fat": "16",
+      "calories": "199"
+    }
+  },
+  {
+    "id": "18",
+    "image": "https://kcdn.tanuki.ru/images/1/q5-9tvhAmcidC4eYLZ_Z2cJW8dLoZbz9.jpg?width=500&height=500",
+    "title": "Сашими Лосось",
+    "price": "560",
+    "weight": "61",
+    "description": "",
+    "category": "4",
+    "nutrition": {
+      "protein": "14",
+      "carbohydrat": "1",
+      "fat": "4",
+      "calories": "98"
+    }
+  },
+  {
+    "id": "19",
+    "image": "https://kcdn.tanuki.ru/images/1/c08iJ3OM4dX4l_PCIZ2tcya5esMdCaV_.jpg?width=500&height=500",
+    "title": "Сашими Тунец",
+    "price": "510",
+    "weight": "77",
+    "description": "Темпура-лосось, Темпура-креветка, Темпура-краб",
+    "category": "4",
+    "nutrition": {
+      "protein": "16",
+      "carbohydrat": "1",
+      "fat": "1",
+      "calories": "72"
+    }
+  },
+  {
+    "id": "20",
+    "image": "https://static.sushiwok.ru/img/b24950fb2cda4760014e064c7369c8b2/500x500",
+    "title": "Витаминный",
+    "price": "180",
+    "weight": "200",
+    "description": "Капуста, морковь, заправка лёгкая, кунжут",
+    "category": "5",
+    "nutrition": {
+      "protein": "17",
+      "carbohydrat": "18",
+      "fat": "7",
+      "calories": "313"
+    }
+  },
+  {
+    "id": "21",
+    "image": "https://static.sushiwok.ru/img/33bfa9541357d617f7cb5f548c312593/500x500",
+    "title": "Чука Салат",
+    "price": "350",
+    "weight": "152",
+    "description": "Водоросли чука, кунжут, лимон, ореховый соус",
+    "category": "5",
+    "nutrition": {
+      "protein": "6",
+      "carbohydrat": "29",
+      "fat": "22",
+      "calories": "339"
+    }
+  },
+  {
+    "id": "22",
+    "image": "https://static.sushiwok.ru/img/744ea22e621ead6c6bc4a5bd51281241/500x500",
+    "title": "Чизкейк",
+    "price": "390",
+    "weight": "182",
+    "description": "Чизкейк классический, сироп клубничный, сироп шоколадный",
+    "category": "6",
+    "nutrition": {
+      "protein": "14",
+      "carbohydrat": "69",
+      "fat": "47",
+      "calories": "754"
+    }
+  },
+  {
+    "id": "23",
+    "image": "https://static.sushiwok.ru/img/09e1f273d75222e80b68228d0967dfab/500x500",
+    "title": "Тропический",
+    "price": "280",
+    "weight": "166",
+    "description": "Тесто харумаки, сыр сливочный, банан, ананас, сироп шоколадный, сироп клубничный",
+    "category": "6",
+    "nutrition": {
+      "protein": "12",
+      "carbohydrat": "42",
+      "fat": "32",
+      "calories": "532"
+    }
+  },
+  {
+    "id": "24",
+    "image": "https://static.sushiwok.ru/img/62f86ef41f6ee297a97816e81fa8fc9e/500x500",
+    "title": "Ореховый рай",
+    "price": "290",
+    "weight": "165",
+    "description": "Тесто харумаки, грецкий орех, банан, мёд, сыр сливочный, сироп шоколадный, сироп клубничный",
+    "category": "6",
+    "nutrition": {
+      "protein": "12",
+      "carbohydrat": "42",
+      "fat": "32",
+      "calories": "532"
+    }
+  },
+  {
+    "id": "25",
+    "image": "https://static.sushiwok.ru/img/f054431e0136869aac2240912c7d0bac/500x500",
+    "title": "Сочный фрукт",
+    "price": "280",
+    "weight": "165",
+    "description": "Сыр сливочный, ананас, банан, киви, сироп клубничный, сироп шоколадный, тесто харумаки",
+    "category": "6",
+    "nutrition": {
+      "protein": "12",
+      "carbohydrat": "42",
+      "fat": "32",
+      "calories": "532"
+    }
+  },
+  {
+    "id": "26",
+    "image": "https://static.sushiwok.ru/img/7fa2d42fbfb3335894a28db11ae4351c/500x500",
+    "title": "Кола 0.5л",
+    "price": "170",
+    "weight": 0,
+    "description": "",
+    "category": "7",
+    "nutrition": {
+      "protein": "",
+      "carbohydrat": "",
+      "fat": "",
+      "calories": ""
+    }
+  },
+  {
+    "id": "27",
+    "image": "https://static.sushiwok.ru/img/dbf8ccc566ca31141def48837e933bce/500x500",
+    "title": "Морс из чёрной смородины 0.5л",
+    "price": "130",
+    "weight": 0,
+    "description": "",
+    "category": "7",
+    "nutrition": {
+      "protein": "",
+      "carbohydrat": "",
+      "fat": "",
+      "calories": ""
+    }
+  },
+  {
+    "id": "28",
+    "image": "https://static.sushiwok.ru/img/7e5c100d4bad4a07616b1a233e26b5bc/500x500",
+    "title": "Зеленый чай с манго 0.5л",
+    "price": "190",
+    "weight": 0,
+    "description": "",
+    "category": "7",
+    "nutrition": {
+      "protein": "",
+      "carbohydrat": "",
+      "fat": "",
+      "calories": ""
+    }
+  },
+  {
+    "id": "29",
+    "image": "https://static.sushiwok.ru/img/d8904238255f221fcc0423a78e8a8216/500x500",
+    "title": "Burn Dark Energy 0.25л",
+    "price": "180",
+    "weight": 0,
+    "description": "",
+    "category": "7",
+    "nutrition": {
+      "protein": "",
+      "carbohydrat": "",
+      "fat": "",
+      "calories": ""
+    }
+  }
+]
