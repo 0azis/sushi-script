@@ -11,7 +11,7 @@ func userRoutes(router *gin.RouterGroup, db store.Store, m gin.HandlerFunc) {
 	user := router.Group("/user")
 
 	service := services.NewUserService(&db)
-	adapters := http.NewUserAdapters(service)
+	adapters := http.NewUserAdapters(&service)
 
 	user.POST("/login", adapters.Login)
 	user.PATCH("", m, adapters.UpdateProfile)

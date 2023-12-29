@@ -2,11 +2,9 @@ package http
 
 import (
 	"github.com/gin-gonic/gin"
-	"strings"
 	"sushi/helpers"
 	"sushi/internal/core/domain"
 	"sushi/internal/core/ports"
-	"sushi/internal/core/services"
 )
 
 type authControllers struct {
@@ -50,13 +48,11 @@ func (ac *authControllers) Login(c *gin.Context) {
 		return
 	}
 
+	c.SetCookie("token", jwt, 100, "/", "localhost", false, false)
 	c.JSON(200, domain.HttpResponse{
 		Error: domain.Error{
 			Status:  200,
 			Message: "You are successfully logged in",
-		},
-		Data: gin.H{
-			"access_token": jwt,
 		},
 	})
 }
@@ -74,6 +70,11 @@ func (ac *authControllers) UpdateProfile(c *gin.Context) {
 		})
 		return
 	}
+
+	token, _ := c.Cookie("token")
+	userID, err := helpers.GetIdentity(token)
+
+	credentials.ID = userID
 
 	err = ac.UserService.UpdateProfile(credentials)
 	if err != nil {
@@ -95,7 +96,8 @@ func (ac *authControllers) UpdateProfile(c *gin.Context) {
 }
 
 func (ac *authControllers) GetMyProfile(c *gin.Context) {
-	userID, err := helpers.GetIdentity(strings.Split(c.Request.Header["Authorization"][0], " ")[1])
+	token, _ := c.Cookie("token")
+	userID, err := helpers.GetIdentity(token)
 
 	if err != nil {
 		c.JSON(500, domain.HttpResponse{
@@ -139,8 +141,8 @@ func (ac *authControllers) GetMyProfile(c *gin.Context) {
 
 }
 
-func NewUserAdapters(service services.UserService) authControllers {
+func NewUserAdapters(service ports.UserService) authControllers {
 	return authControllers{
-		UserService: &service,
+		UserService: service,
 	}
 }

@@ -5,11 +5,11 @@ import (
 	"sushi/internal/core/ports"
 )
 
-type UserService struct {
+type userService struct {
 	repo ports.UserRepository
 }
 
-func (us *UserService) LoginUser(user domain.User) (int, error) {
+func (us *userService) LoginUser(user domain.User) (int, error) {
 	var userID int
 	userDB, err := us.repo.Select("phone", user.Phone)
 
@@ -24,16 +24,16 @@ func (us *UserService) LoginUser(user domain.User) (int, error) {
 	return userDB.ID, nil
 }
 
-func (us *UserService) UpdateProfile(user domain.User) error {
+func (us *userService) UpdateProfile(user domain.User) error {
 	return us.repo.Update(user)
 }
 
-func (us *UserService) Profile(id int) (domain.User, error) {
+func (us *userService) Profile(id int) (domain.User, error) {
 	return us.repo.Select("id", id)
 }
 
-func NewUserService(repository ports.UserRepository) UserService {
-	return UserService{
+func NewUserService(repository ports.UserRepository) userService {
+	return userService{
 		repo: repository,
 	}
 }

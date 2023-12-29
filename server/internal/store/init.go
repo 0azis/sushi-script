@@ -11,7 +11,7 @@ type Store struct {
 }
 
 func (store *Store) Connect() {
-	db, err := sqlx.Connect("mysql", "root:123@/sushi")
+	db, err := sqlx.Connect("mysql", "test:test123@tcp(localhost:3307)/sushi")
 	if err != nil {
 		log.Println(err)
 	}

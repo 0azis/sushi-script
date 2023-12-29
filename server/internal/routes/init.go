@@ -7,4 +7,5 @@ import (
 
 func InitRoutes(router *gin.RouterGroup, db store.Store, m gin.HandlerFunc) {
 	userRoutes(router, db, m)
+	productRoutes(router, db, m)
 }

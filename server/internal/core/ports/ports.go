@@ -13,3 +13,23 @@ type UserService interface {
 	UpdateProfile(user domain.User) error
 	Profile(id int) (domain.User, error)
 }
+
+type CartRepository interface {
+	Add(userID, productID int) error
+	Delete(userID, productID int) error
+}
+
+type CartService interface {
+	AddProduct(userID, productID int) error
+	DeleteProduct(userID, productID int) error
+}
+
+type ProductRepository interface {
+	GetAll() ([]domain.Product, error)
+	GetOne(productID int) (domain.Product, error)
+}
+
+type ProductService interface {
+	GetAllProducts() ([]domain.Product, error)
+	GetOneProduct(productID int) (domain.Product, error)
+}

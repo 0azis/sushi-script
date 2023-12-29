@@ -13,7 +13,7 @@ func (store *Store) Insert(user domain.User) (int, error) {
 		return insertedID, err
 	}
 
-	_, err = tx.Exec(`insert into sushi_users (phone, name, address) values (?, ?, ?);`, user.Phone, user.Name, user.Address)
+	_, err = tx.Exec(`insert into sushi_users (phone, name, address) values (?, ?, ?);`, user.Phone, user.Name, `{}`)
 	if err != nil {
 		return insertedID, err
 	}
