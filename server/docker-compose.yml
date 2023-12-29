@@ -1,11 +1,12 @@
 version: '3.8'
 
 services:
-  mysql_db:
+  db:
+    container_name: my-db
     image: mysql:8
     restart: always
     ports:
-      - "3307:3306"
+      - "3333:3306"
     environment:
       MYSQL_ROOT_PASSWORD: 123
       MYSQL_DATABASE: sushi
@@ -13,3 +14,4 @@ services:
       MYSQL_PASSWORD: test123
     volumes:
       - "./migrations/init.sql:/docker-entrypoint-initdb.d/001.sql"
+
