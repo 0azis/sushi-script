@@ -1,6 +1,7 @@
 package http
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"sushi/helpers"
 	"sushi/internal/core/domain"
@@ -111,17 +112,8 @@ func (ac *authControllers) GetMyProfile(c *gin.Context) {
 
 	user, err := ac.UserService.Profile(userID)
 
-	if user.ID == 0 {
-		c.JSON(404, domain.HttpResponse{
-			Error: domain.Error{
-				Status:  404,
-				Message: "User not found",
-			},
-		})
-		return
-	}
-
 	if err != nil {
+		fmt.Println(err)
 		c.JSON(500, domain.HttpResponse{
 			Error: domain.Error{
 				Status:  500,

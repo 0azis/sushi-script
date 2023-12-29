@@ -6,7 +6,7 @@ db = mysql.connector.connect(
     user="test",
     password="test123",
     database="sushi",
-    port=3307
+    port=3333
 )
 
 cur = db.cursor()

@@ -7,6 +7,7 @@ import (
 )
 
 func InitHttpServer() {
+
 	app := gin.Default()
 
 	db := store.InitDB()
